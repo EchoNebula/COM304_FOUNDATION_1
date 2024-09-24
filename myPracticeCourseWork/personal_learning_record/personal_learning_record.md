@@ -3,9 +3,9 @@
 |      |      |
 |:---- |:---- |
 | Course and Year | COM304 Foundation Computing 2024 | 
-| Student Name | |
-| Student Number | |
-| Github Account | |
+| Student Name |Exa Fernandes|
+| Student Number |Q102567863|
+| Github Account |EchoNebula|
 
 ## Introduction
 
