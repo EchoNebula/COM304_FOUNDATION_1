@@ -1,5 +1,6 @@
+[Main Menu](../../../README.md) | [session6](../../../session6/) | [Seven Segment Mapping](../sevensegment/sevensegmentmapping.md)
 
-
+## Mapping of registers to 7 segment displays in CPUlator
 
 https://www-ug.eecg.utoronto.ca/desl/nios_devices_SoC/ARM/dev_7segs.html
 
