@@ -1,0 +1,57 @@
+Session_1:
+======
+
+<br>
+
+**<h3><em>Set-up GitHub</em>🟡:</h3>**
+------
+
+- GitHub account creation🟢
+- Forking base(**COM304_FOUNDATION_1**) repo into your own account🟢
+- Install git on local PC🟢
+- Clone repo(CLI):🟡
+  1. Initiate SSH key generation & enter password (enables secure access,**NOTE THE PHRASE ENTERED**)
+  2. Copy public key into keyring of GitHub account (Allows GitHub to recognise & authorise connection & access of repo via passkey)
+  3. Clone repo [FORMAT: git@github.com:{username}/{project name}.git]
+  4. Test CRUD by editing new comment into **personal_learning_Record** folder files
+  5. Commit changes and push changes into main(saving/uploading & updating function)
+  6. Verify changes in browser by ensuring changes are made as intended.
+
+>[**I struggled in errors in steps 3&5 such as "git@github: permission denied" on windows which indicates SSH public key pairing failure leading to unsuccessful authentication. While dual booting Linux, GitHub desktop was used as an alternative as it offered the same functionality >albeit with more processing occupancy via its GUI interface. GitHub desktop is only a temporary fix and consolidation will be required to retry and diagnose any issues**] 🔴<br>
+
+**<h3><em>Set-up Rasberry Pi(Linux)</em>🟢:</h3>**
+------
+
+
+>My preference in Linux distros(Kubuntu) executes (.deb) files which allowed installation of the [Rasberry Pi imager](https://www.raspberrypi.com/software) onto my system. 
+Unfortunately, the setup wasn't initially compatible due to lack of native support of the .net runtime environment. Subsequent following attempts utilised W.I.N.E & emacs to install [.net 4.8.1 SDK runtime](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net481) before re-attempting the installation with no errors. <br>
+
+**<h4><em>Install bootable Rasberry_Pi OS </em>🟢:</h4>**
+------
+
+
+- An external SD card was formatted using the imager referenced for the [Raspberry Pi 2 Model b](https://www.raspberrypi.com/products/raspberry-pi-2-model-b) with the latest 'Bookworm' pi operating system (32 bit) as instructed.
+
+- The OS instance was configured to rulesets given by the professor for effective identification & management of Rasberry pi's loaned to students according to Solent university's IT use conduct policies. <br>
+
+
+***Base hardware configuration:***
+- (Base hardware : Raspberry Pi 2 Model b, monitor) 
+- (peripheral hardware: USB dongle, HDMI cable, micro-usb Pi charger, wired keyboard & mouse)
+  
+***Notes:***
+  - Insert the bootable SD cards into the reader only when power is off to avoid corruption.
+  - **Remember to turn on the charging plug.**
+  - Set the monitor to output from whichever HDMI slot currently attached to the Pi.
+  - After initiation, run `sudo apt update && sudo apt upgrade`.
+  - use `shutdown now` in the terminal to close your Pi
+
+**<h5><em>Getting online via Eduroam(😭)</em>🟢:</h5>**
+------
+Even after following the curated instructions, eduroam as a network was very unreliable & would periodically disconnect which was very problematic later down the line when installing packages which were interrupted midway. As a team, I used hotspot to share access to 'Solent guest' using my phone as effective wi-fi hub which sorted subsequent issues from occurring.<br>
+
+>**Due to the small RAM size, most operations used paging which significantly bottlenecked download speeds.Therefore, future modules were installed via a distributed USB sticks with all executable files to build necessary library's dependencies.<br>
+
+
+**<h3>History of computing</h3>**
+
